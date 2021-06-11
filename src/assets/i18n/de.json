@@ -1,0 +1,8 @@
+{
+  "not-found-page": {
+    "hello": "Hallo",
+    "error": {
+      "404": "Seite nicht gefunden"
+    }
+  }
+}

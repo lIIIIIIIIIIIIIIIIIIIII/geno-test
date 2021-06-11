@@ -1,0 +1,18 @@
+@import '~@angular/material/_theming.scss';
+@import '~@angular/material/theming';
+@import './components/button';
+
+@include mat-core();
+
+$baufi-theme: mat-light-theme((
+  color: (
+    primary: $mat-indigo,
+    accent: $mat-pink,
+    warn: $mat-amber,
+  )
+));
+@include angular-material-theme($baufi-theme);
+
+.baufi-theme {
+  @include button;
+}
