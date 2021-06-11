@@ -10,7 +10,7 @@ jobs:
       matrix:
         node-version: [ 12.x ]
 
-    step:
+    steps:
       - uses: actions/checkout@v1
 
       - name: Cache node modules
